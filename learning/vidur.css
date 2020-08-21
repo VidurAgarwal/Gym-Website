@@ -1,0 +1,19 @@
+.container{
+    border: 4px solid red;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+.apple{
+    border: 3px solid violet;
+    margin: 30px;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+}
+.item-apple{
+    border: 5px solid brown;
+    margin: 40px;
+    padding: 25px;
+}

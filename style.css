@@ -1,0 +1,48 @@
+body{
+background: url(gym.jpg);
+background-size: cover;
+box-sizing: border-box;
+}
+header{
+    border: 2px solid black;
+}
+.left, .mid, .right{
+    
+    border: 2px solid red;
+    display: inline-block;
+}
+.left{
+    position: absolute;
+    top: 37px;
+    left: 15px;
+}
+.mid{
+    
+    display: block;
+    width:45%;
+    margin: 10px auto;
+}
+.right{
+    position: absolute;
+    right: 15px;
+    top: 37px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 12px;
+}
+.navbar li a{
+    color: darkorange;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+.navbar li a:hover, .navbar li a:active{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: underline;
+}

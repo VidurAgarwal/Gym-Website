@@ -6,15 +6,19 @@ box-sizing: border-box;
 header{
     border: 2px solid black;
 }
-.left, .mid, .right{
+ .mid, .right{
     
     border: 2px solid red;
     display: inline-block;
 }
 .left{
+    display: inline-block;
+}
+.left img{
+    width: 80px;
     position: absolute;
-    top: 37px;
-    left: 15px;
+    top: 25px;
+    left: 20px;
 }
 .mid{
     

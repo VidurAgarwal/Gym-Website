@@ -2,9 +2,11 @@ body{
 background: url(gym.jpg);
 background-size: cover;
 box-sizing: border-box;
+font-family: 'Great Vibes', cursive;
 }
 header{
     /* border: 2px solid black; */
+    
 }
  .mid, .right{
     
@@ -43,7 +45,8 @@ header{
 .navbar li a{
     color: darkorange;
     text-decoration: none;
-    font-size: 1.7em;
+    font-size: 2.1em;
+    font-weight: bolder;
     
 }
 .navbar li a:hover, .navbar li a:active{
@@ -54,14 +57,51 @@ header{
 .btn{
     margin: 8px;
     font-size: 1.05em;
-    font-weight: lighter;
+    font-weight: bolder;
     background-color: slategrey;
     padding: 3px 4px;
     cursor: pointer;
     transition-duration: 1.8s;
+    border-radius: 35%;
 }
 .btn:hover{
     background-color: tomato;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(41, 39, 39, 2.4),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container{
+    top: 132px;
+    position: absolute;
+    width: 337px;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 15%;
+    height: 492px;
+    /* width: 40%; */
+    /* display: block; */
+    margin: 35px;
+    font-size: 2em;
+    color: rgb(12, 12, 12);
+    /* padding: 30px; */
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 12px 16px 0 rgba(41, 39, 39, 2.4),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.content{
+    margin: 20px;
+    color: rgb(7, 3, 49);
+    font-weight: bolder;
+}
+.form-website{
+    margin: 30px;
+    
+}
+#Name, #Mobile-Number, #Email-Id{
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+label{
+    position: relative;
+    left: 25px;
+    color: rgb(7, 3, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

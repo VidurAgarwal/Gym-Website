@@ -75,7 +75,7 @@ header{
     width: 337px;
     border: 2px solid rgb(3, 3, 3);
     border-radius: 15%;
-    height: 492px;
+    height: 509px;
     /* width: 40%; */
     /* display: block; */
     margin: 35px;
@@ -104,4 +104,15 @@ label{
     left: 25px;
     color: rgb(7, 3, 49);
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit{
+    width: 113px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    left: 74px;
+    border-radius: 4px 4px;
+    background-color: rgba(248, 7, 19, 0.096);
+    font-weight: bolder;
+    color: rgb(16, 17, 17);
 }

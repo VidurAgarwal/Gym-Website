@@ -4,11 +4,11 @@ background-size: cover;
 box-sizing: border-box;
 }
 header{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
  .mid, .right{
     
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
 }
 .left{
@@ -19,12 +19,13 @@ header{
     position: absolute;
     top: 25px;
     left: 20px;
+    /* border: 2px solid violet; */
 }
 .mid{
     
     display: block;
     width:45%;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .right{
     position: absolute;
@@ -37,16 +38,30 @@ header{
 .navbar li{
     display: inline-block;
     list-style: none;
-    padding: 0px 12px;
+    padding: 0px 8px;
 }
 .navbar li a{
     color: darkorange;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.7em;
     
 }
 .navbar li a:hover, .navbar li a:active{
     color: rgb(0, 0, 0);
     font-weight: bolder;
     text-decoration: underline;
+}
+.btn{
+    margin: 8px;
+    font-size: 1.05em;
+    font-weight: lighter;
+    background-color: slategrey;
+    padding: 3px 4px;
+    cursor: pointer;
+    transition-duration: 1.8s;
+}
+.btn:hover{
+    background-color: tomato;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(41, 39, 39, 2.4),0 17px 50px 0 rgba(0,0,0,0.19);
 }
